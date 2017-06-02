@@ -1,0 +1,31 @@
+{
+  "name": "isotope-abundances",
+  "version": "1.0.0",
+  "description": "A JavaScript library for working with isotope abundances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptyport/isotope-abundances.git"
+  },
+  "keywords": [
+    "isotope",
+    "abundance",
+    "chemistry",
+    "chemical",
+    "mass"
+  ],
+  "author": "Michael Porter <michaelporter.chemistry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emptyport/isotope-abundances/issues"
+  },
+  "homepage": "https://github.com/emptyport/isotope-abundances#readme",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "fs": "0.0.1-security",
+    "mocha": "^3.4.2"
+  }
+}
