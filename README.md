@@ -1,6 +1,10 @@
 # isotope-abundances
 A simple library to provide isotope abundances with JavaScript
 
+View on npm [here](https://www.npmjs.com/package/isotope-abundances).
+
+***Please note that this package is now on version 2.0 and is no longer compatible with version 1.0. The return format of the data is now different.***
+
 ## Installation
 npm install isotope-abundances --save
 
