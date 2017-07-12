@@ -11,10 +11,21 @@ console.log(isoAbund('H'));
 ```
 Output:
 ```
-[ [ '1.00782503223', '0.999885' ],
-  [ '2.01410177812', '0.000115' ] ]
+{
+    "Mass": 1.00794,
+    "Isotopes": [
+      {
+        "Mass": 1.00782503223,
+        "Abundance": 0.999885
+      },
+      {
+        "Mass": 2.01410177812,
+        "Abundance": 0.000115
+      }
+    ]
+  }
 ```
-The output for each isotope is an array of arrays where the first value is the mass value and the second value is the relative abundance of that isotope.
+The output for each isotope is a JSON object where "Mass" contains the average mass of the atom and the "Isotopes" array contains the mass and abundance of each isotope.
 
 ## Tests
 You can run `npm test` to run the tests after installing the development dependencies.
